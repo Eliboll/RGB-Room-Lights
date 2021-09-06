@@ -9,8 +9,8 @@
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 //sets up wifi
-const char* ssid     = "Calcifer";
-const char* password = "~FatDogMan27Tacos~";
+const char* ssid     = "PlaceHolder";
+const char* password = "PlaceHolder";
 
 WiFiServer server(80); //opens up webserver on port 80
 
