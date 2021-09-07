@@ -4,7 +4,7 @@ This project uses an ESP8266 running a http server to control ws2812b rgb leds. 
 
 RoomLights.ino should have the ssid and password replaced and then flashed into the ESP8266
 
-#Abstract Description
+# Abstract Description
 I had some ws2812b led strips, and thought it would be fun to put them up in my room as mood lights. I desgined a controller based around the ESP8266, which ran a web server. This web server took commands that could change the color, run preset modes, like a rainbow, or christmas lights, change the brightness etc.
 
 I then designed a desktop application using python and TKinter to interface with the board to make a clean controller UI 
