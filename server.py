@@ -20,9 +20,9 @@ def Tprint(message): #Prints to the console message with a time stamp added
 
 scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('monitary-224103-08aa40d6212d.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name('JSON KEY.json', scope)
 client = gspread.authorize(creds)
-sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1QpCyhEw_BaMp4GApFhQItKvO0WCoLcikXKggYy6rNaE/edit#gid=0").sheet1
+sheet = client.open_by_url("URL OF SPREADSHEET").sheet1
 
 ip_address = "http://192.168.1.70" # adress has a DHCP reservation.
 
